@@ -35,7 +35,7 @@ import javax.swing.JFrame;
 
  }
 	void construyeVentana() { 
-		frame = new JFrama("Numero");
+		frame = new JFrame("Numero");
 		frame.add(ventana);
 		frame.pack();
 		frame.setVisible(true);
