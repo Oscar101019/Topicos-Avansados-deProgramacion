@@ -34,7 +34,16 @@ import javax.swing.JFrame;
      ventana.add(bt5);
 
  }
+	void construyeVentana() { 
+		frame = new JFrama("Numero");
+		frame.add(ventana);
+		frame.pack();
+		frame.setVisible(true);
 
 
+}
+	public static void main (String ar[]) { 
+		new Grid();
+ }
     }  
 					
